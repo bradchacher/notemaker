@@ -13,6 +13,10 @@
   // require('./models/Idea');
   // const Idea = mongoose.model('ideas');
 
+  //Load Idea Model
+  require('./models/Idea');
+  const Idea = mongoose.model('ideas');
+
   // //How middleware works
   // app.use((req,res,next) => {
   //   console.log(Date.now());
